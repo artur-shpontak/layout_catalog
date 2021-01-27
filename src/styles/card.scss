@@ -14,9 +14,19 @@
   }
 
   &__img {
-    height: 134px;
-    width: 160px;
-    margin: 30px 19px 41px;
+    height: 161px;
+    width: 166px;
+    
+    margin: 16px 16px 28px;
+    padding: 11px 0 10px;
+
+    transition: transform 1s;
+    border: 3px solid white;
+    border-radius: 5px;
+    &:hover {
+      transform: scale(1.2);
+      border-color: #f3f3f3;
+    }
   }
 
   &__title {
