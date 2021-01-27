@@ -12,15 +12,8 @@
 }
 
 .main {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 40px;
-
-  width: 100%;
-}
-
-@media screen and (min-width: 1200px) {
-  .main {
-    padding-left: 128px;
-  }
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4,200px);
+  gap: 50px 48px;
 }
